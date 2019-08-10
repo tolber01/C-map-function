@@ -7,7 +7,7 @@ void print_array(int *array, int length);
 
 int main(void)
 {
-    int data[MAX_LENGTH] = {-1, 12, -13, 0, -14, 133};
+    int data[MAX_LENGTH] = {-1, 12, -13, 0, -14};
     map(data, MAX_LENGTH, func);
     print_array(data, MAX_LENGTH);
     return 0;
